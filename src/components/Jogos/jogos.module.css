@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap");
 
-
-
 .container {
 	background-color: #0e389c;
 
@@ -19,9 +17,9 @@
 	margin-bottom: 58px;
 }
 @media (max-width: 550px) {
-    .box {
-        width: 98%;
-    }
+	.box {
+		width: 98%;
+	}
 }
 
 .box_top {

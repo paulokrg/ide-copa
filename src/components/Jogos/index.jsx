@@ -4,8 +4,8 @@ import Subtitle from "../Subtitle";
 
 export default function Jogos() {
 	return (
-		<div className={styles.container} id="proximos_jogos">
-			<Subtitle id="..">Próximos Jogos</Subtitle>
+		<div className={styles.container}>
+			<Subtitle id="proximos_jogos">Próximos Jogos</Subtitle>
 
 			<JogosCard
 				time1="jogos/brasil.png"

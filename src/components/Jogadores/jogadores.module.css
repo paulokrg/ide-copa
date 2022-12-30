@@ -1,187 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 .abas {
-    overflow: hidden;
-    background: #0E389C;
-    display: flex;
-    height: 34px;
-    margin-bottom: 2px;
+	overflow: hidden;
+	background: #0e389c;
+	display: flex;
+	height: 34px;
+	margin-bottom: 2px;
 }
 
-.aba, .abaSelecionada {
-    flex: 1;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-    color: #FFF;
+.aba,
+.abaSelecionada {
+	flex: 1;
+	font-family: "Poppins", sans-serif;
+	font-size: 17px;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+	color: #fff;
 }
 .aba {
-    font-weight: 400;
-
+	font-weight: 400;
 }
 
 .abaSelecionada {
-    font-weight: 700 ;
+	font-weight: 700;
 }
 
 .abas > button:hover {
-    background: #20195F;
+	background: #20195f;
 }
 
 .abas > button:focus {
-    background: #20195F;
+	background: #20195f;
 }
 
 .jogadoresSection {
-    width: 860px;
-    margin: auto;
+	width: 860px;
+	margin: auto;
 }
 
 @media only screen and (max-width: 860px) {
-    .jogadoresSection {
-        width: 95%;
-        height: auto;
-    }
-    @media only screen and (max-width: 512px) {
-        .abas {
-            flex-direction: column;
-            height: auto;
-        }
-    }
-
+	.jogadoresSection {
+		width: 95%;
+		height: auto;
+	}
+	@media only screen and (max-width: 512px) {
+		.abas {
+			flex-direction: column;
+			height: auto;
+		}
+	}
 }
 
 .jogadores {
-    padding: 0;
+	padding: 0;
 }
 
 .jogador {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    height: 124px;
-    transition: .6s ease-in-out;
-    border-radius: 3px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	height: 124px;
+	transition: 0.6s ease-in-out;
+	border-radius: 3px;
 }
 
 .jogador:hover {
-    transition: .3s ease-in-out;
-    margin-left: 13px;
+	transition: 0.3s ease-in-out;
+	margin-left: 13px;
 }
 
-
 .jogador > .foto {
-    margin: 0 0 0 29px;
+	margin: 0 0 0 29px;
 }
 
 .jogador > .foto > img {
-    width: 88px;
-    height: 94px;
-    background: #D9D9D9;
-    border: 0 none;
-
+	width: 88px;
+	height: 94px;
+	background: #d9d9d9;
+	border: 0 none;
 }
 .jogador > .foto > span {
-    display: block;
-    width: 88px;
-    height: 6px;
-    margin: 10px 0 3px 0;
+	display: block;
+	width: 88px;
+	height: 6px;
+	margin: 10px 0 3px 0;
 }
 
 .jogador > .info {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0 30px 41px;
-    flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0 30px 41px;
+	flex-grow: 1;
 
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 30px;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 30px;
 }
 .nomeJogador {
-    font-weight: 700;
+	font-weight: 700;
 }
 .posicaoTextual {
-    display: none;
+	display: none;
 }
 
 .jogador > .posicao {
-    color: #FFFFFF;
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 64px;
-    text-align: center;
-    margin: 27px 28px 27px 0;
-    transition: 1s;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 64px;
+	text-align: center;
+	margin: 27px 28px 27px 0;
+	transition: 1s;
 }
 .jogador:hover > .posicao {
-    transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
 }
-
-
-
 
 .jogador:nth-child(even) {
-    color: #079A5A;
-    background: #EEEEEE;
+	color: #079a5a;
+	background: #eeeeee;
 }
 .jogador:nth-child(even) > .foto > span {
-    background: #079A5A;
+	background: #079a5a;
 }
 .jogador:nth-child(even) > .posicao {
-    background: #079A5A;
+	background: #079a5a;
 }
-
 
 .jogador:nth-child(odd) {
-    color: #0E389C;
+	color: #0e389c;
 }
 .jogador:nth-child(odd) > .foto > span {
-    background: #0E389C;
+	background: #0e389c;
 }
 .jogador:nth-child(odd) > .posicao {
-    background: #0E389C;
+	background: #0e389c;
 }
 
 @media (max-width: 420px) {
-    .jogador {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
-    .jogador > .foto {
-        width: 88px;
-        margin: auto;
-    }
-    .jogador > .foto > span {
-        display: block;
-        width: 88px;
-        height: 6px;
-        margin: 10px 0 3px 0;
-    }
+	.jogador {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
+	.jogador > .foto {
+		width: 88px;
+		margin: auto;
+	}
+	.jogador > .foto > span {
+		display: block;
+		width: 88px;
+		height: 6px;
+		margin: 10px 0 3px 0;
+	}
 
-    .posicao {
-        display: none;
-    }
+	.posicao {
+		display: none;
+	}
 
-    .posicaoTextual {
-        display: block;
-    }
+	.posicaoTextual {
+		display: block;
+	}
 
-    .jogador > .info  {
-        margin: 5px 0 10px 0;
-    }
-
+	.jogador > .info {
+		margin: 5px 0 10px 0;
+	}
 }
