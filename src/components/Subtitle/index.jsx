@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 
-export default function ({ children, id }) {
+export default function Subtitle({ children, id }) {
 	if (!children || !id) {
 		alert("O id e o texto precisa ser preenchido nos Subtitles!!");
 	}

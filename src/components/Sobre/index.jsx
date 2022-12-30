@@ -1,6 +1,7 @@
 import React from "react";
 import Subtitle from "../Subtitle";
 import styles from "./sobre.module.css";
+
 export default function Sobre() {
 	return (
 		<section className={styles.secao}>
