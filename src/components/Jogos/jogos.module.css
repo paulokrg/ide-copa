@@ -7,7 +7,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-top: 31px;
+	padding-top: 32px;
 }
 
 .box {
@@ -16,7 +16,7 @@
 	height: 100%;
 	margin-bottom: 58px;
 }
-@media (max-width: 550px) {
+@media (max-width: 665px) {
 	.box {
 		width: 98%;
 	}

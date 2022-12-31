@@ -8,8 +8,9 @@ export default function Subtitle({ children, id }) {
 	const newText = children.toUpperCase();
 
 	return (
-		<h2 id={id} className={styles.title}>
-			{newText}
-		</h2>
+		<>
+			<div id={id} className="anchor_offset"></div>
+			<h2 className={styles.title}>{newText}</h2>
+		</>
 	);
 }

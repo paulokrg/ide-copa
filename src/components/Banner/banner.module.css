@@ -1,7 +1,9 @@
 .banner {
+	display: block;
 	position: relative;
 	width: 100%;
 	height: 100%;
+	margin-top: -4px;
 }
 
 .banner img {
@@ -23,4 +25,10 @@
 	padding: 25px 0 25px 40px;
 	background: linear-gradient(180deg, rgba(32, 25, 95, 0) 0%, #20195f 100%);
 	width: 100%;
+}
+
+@media only screen and (max-width: 665px) {
+	.banner h1 {
+		font-size: 8vw;
+	}
 }
