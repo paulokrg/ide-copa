@@ -5,7 +5,7 @@ import styles from "./sobre.module.css";
 export default function Sobre() {
 	return (
 		<section className={styles.secao}>
-			<Subtitle id="sobre a seleção">Sobre a Seleção</Subtitle>
+			<Subtitle id="sobre_a_selecao">Sobre a Seleção</Subtitle>
 
 			<div className={styles.info}>
 				<p>

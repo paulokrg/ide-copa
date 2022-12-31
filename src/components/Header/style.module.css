@@ -11,8 +11,6 @@
 
 .container ul {
 	display: flex;
-	margin: 0;
-	padding: 0;
 	justify-content: space-evenly;
 }
 

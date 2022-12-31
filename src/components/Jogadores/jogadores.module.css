@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+.jogadoresSection {
+	width: 860px;
+	margin: auto;
+}
+
 .abas {
 	overflow: hidden;
 	background: #0e389c;
@@ -37,11 +42,6 @@
 	background: #20195f;
 }
 
-.jogadoresSection {
-	width: 860px;
-	margin: auto;
-}
-
 @media only screen and (max-width: 860px) {
 	.jogadoresSection {
 		width: 95%;
@@ -53,10 +53,6 @@
 			height: auto;
 		}
 	}
-}
-
-.jogadores {
-	padding: 0;
 }
 
 .jogador {
